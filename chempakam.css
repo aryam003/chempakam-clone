@@ -1,0 +1,44 @@
+.main img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 35px 50px;
+    text-decoration: none;
+}
+li a :hover{
+    background-color: black;
+}
+.sch input{
+    font-size:15px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: black;
+    text-align: left;
+}
+.sch{
+    padding: 20px;
+}
+.sch img{
+    width: 40px;
+}
+.sub1 img{
+    width: 600px;
+}
+
+
