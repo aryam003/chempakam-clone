@@ -40,5 +40,69 @@ li a :hover{
 .sub1 img{
     width: 600px;
 }
+.sub1{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(243, 224, 224);
+    text-align: center;
+}
+.sub1 a{
+    background-color: rgb(241, 239, 239);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 2px 2px;
+}
+.fixed h5{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    width: 200px;
+    height: 30px;
+    border: 10px black;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 50px;
+    font-size: medium;
+    padding: 10px;
+}
+.fixed img{
+    position: fixed;
+    bottom: 0;
+    right: 65px;
+    width: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.sub2{
+    margin: 1;
+    width: 100px;
+    float: left;
+    border: 1px;
+}
+.sub2:hover{
+    border: 1px solid black;
+}
+.sub2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    left: 20%;
+    top: 2100px;
+}
+.desc{
+    position: absolute;
+    left: 24%;
+    top: 2300px;
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+}
 
 
