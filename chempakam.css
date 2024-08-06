@@ -3,8 +3,6 @@
 }
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 8px;
     overflow: hidden;
     background-color: black;
     position: -webkit-sticky;
@@ -55,54 +53,93 @@ li a :hover{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
-    text-shadow: 2px 2px;
+    text-shadow: 1px 2px;
+    font-size: medium;
 }
 .fixed h5{
     position: fixed;
     bottom: 0px;
     right: 80px;
     width: 200px;
-    height: 30px;
+    height: 25px;
     border: 10px black;
     background-color: aliceblue;
     text-align: center;
     border-radius: 50px;
     font-size: medium;
-    padding: 10px;
+    padding: 15px;
 }
 .fixed img{
     position: fixed;
     bottom: 0;
     right: 65px;
     width: 40px;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
 }
-.sub2{
+.sub2,.sub3{
     margin: 1;
     width: 100px;
     float: left;
     border: 1px;
 }
-.sub2:hover{
+.sub2:hover,.sub3:hover{
     border: 1px solid black;
 }
-.sub2 img{
+.sub2 img,.sub3 img,.sub4 img,.sub5 img,.sub6 img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
     position: absolute;
-    left: 20%;
+    left: 18%;
     top: 2100px;
 }
-.desc{
+.desc , .desc2,.desc3,.desc4,.desc5{
     position: absolute;
-    left: 24%;
+    left: 21%;
     top: 2300px;
-    font-size: 20px;
-    color: rgb(53, 52, 52);
+    font-size: 17px;
+    color: rgb(77, 76, 76);
 }
-
-
+.sub3 img{
+    left: 30%;
+}
+.desc2{
+    left: 34%;
+}
+.sub4 img{
+    left: 43%;
+}
+.desc3{
+    left: 46%;
+}
+.sub5 img{
+    left: 56%;
+}
+.desc4{
+    left: 60%;
+}.sub6 img{
+    left: 69%;
+}
+.desc5{
+    left: 71%;
+}
+.main2{
+    position: absolute;
+    left: 35%;
+    top: 2500px;
+    font-size: 23px;
+    color: rgb(88, 88, 88);
+    text-align: center;
+}
+.main2 a{
+    background-color: rgb(241, 239, 239);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: medium;
+}
