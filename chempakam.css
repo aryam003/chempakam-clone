@@ -85,6 +85,10 @@ li a :hover{
     float: left;
     border: 1px;
 }
+.carousel-item img{
+    width: 13.5%;
+    /* height: 13.5%; */
+}
 .sub2:hover,.sub3:hover{
     border: 1px solid black;
 }
@@ -129,7 +133,7 @@ li a :hover{
 .main2{
     position: absolute;
     left: 35%;
-    top: 2500px;
+    top: 2300px;
     font-size: 23px;
     color: rgb(88, 88, 88);
     text-align: center;
@@ -150,7 +154,7 @@ li a :hover{
     height: 300px;
     padding: 20px;
     /* text-align: center; */
-    top: 1150px;
+    top: 1050px;
     left: 100px;
   }
   
@@ -180,6 +184,7 @@ li a :hover{
     top: 1400px;
     left: 100px;
     padding: 20px;
+    width: 300px;
 }
 .fo{
     position: absolute;
